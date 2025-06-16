@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNG - Le style, c'est le hasard.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&family=Pacifico&family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+        <div class="preloader-text">RNG</div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#hero" class="logo">RNG</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#rarities">Raretés</a></li>
+                    <li><a href="#how-it-works">Comment ça marche</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button nav-cta glitch-button" data-text="Notification drop">Notification drop</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="container hero-content">
+                <h1 class="glitch" data-text="RNG — Le style, c'est le hasard.">RNG — Le style, c'est le hasard.</h1>
+                <p class="subtitle neon-text">Mystery Box streetwear • Pièces uniques • Raretés exclusives • Technologie digitale</p>
+                <div class="hero-cta-buttons">
+                    <a href="#concept" class="cta-button primary-cta glitch-button" data-text="Découvrir le concept">Découvrir le concept</a>
+                    <a href="#contact" class="cta-button secondary-cta glitch-button" data-text="Rejoindre la liste d'attente">Rejoindre la liste d'attente</a>
+                </div>
+            </div>
+            <div class="hero-video-teaser">
+                <video autoplay muted loop playsinline>
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-man-opening-a-package-5085-large.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+        </section>
+
+        <section id="concept" class="concept-section section-padding animate-on-scroll">
+            <div class="concept-background-texture"></div>
+            <div class="container">
+                <h2 class="section-heading text-center">Le Concept RNG</h2>
+                <div class="concept-intro">
+                    <p>RNG révolutionne le streetwear avec la Mystery Box : achetez un t-shirt ou un sweat sans savoir exactement quel modèle vous recevrez. Chaque pièce est taillée pour surprendre, collector ou ultra-rare.</p>
+                </div>
+                <div class="concept-content-grid">
+                    <div class="concept-mystery-box">
+                        <img src="https://via.placeholder.com/400x300/1A1A1A/F5F5F5?text=Mystery+Box" alt="RNG Mystery Box">
+                        <div class="mystery-box-overlay">
+                            <i class="fas fa-box-open box-icon"></i>
+                            <span class="box-text">Mystery Box</span>
+                        </div>
+                    </div>
+                    <div class="concept-key-points">
+                        <div class="key-point">
+                            <div class="icon-wrapper"><i class="fas fa-question neon-blue"></i></div>
+                            <h3>Surprise & Fun</h3>
+                            <p>L'adrénaline de la découverte à chaque déballage.</p>
+                        </div>
+                        <div class="key-point">
+                            <div class="icon-wrapper"><i class="fas fa-gem neon-violet"></i></div>
+                            <h3>Collection & Rareté</h3>
+                            <p>Des pièces exclusives, du commun au légendaire.</p>
+                        </div>
+                        <div class="key-point">
+                            <div class="icon-wrapper"><i class="fas fa-fingerprint neon-gold"></i></div>
+                            <h3>Certificat Digital</h3>
+                            <p>Preuve d'authenticité et avantages exclusifs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rarities" class="rarities-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Raretés RNG</h2>
+                <div class="rarity-grid">
+                    <div class="rarity-card animate-on-scroll" data-rarity-color="common">
+                        <span class="rarity-percentage">70%</span>
+                        <div class="rarity-illustration">
+                            <img src="https://via.placeholder.com/150x150/8C8C8C/F5F5F5?text=Common" alt="Common Rarity">
+                        </div>
+                        <h3>Common</h3>
+                        <p>L'essentiel du streetwear, design épuré.</p>
+                    </div>
+                    <div class="rarity-card animate-on-scroll" data-rarity-color="uncommon">
+                        <span class="rarity-percentage">20%</span>
+                        <div class="rarity-illustration">
+                            <img src="https://via.placeholder.com/150x150/00FFFF/1A1A1A?text=Uncommon" alt="Uncommon Rarity">
+                        </div>
+                        <h3>Peu Commun</h3>
+                        <p>Détails exclusifs, coton premium.</p>
+                    </div>
+                    <div class="rarity-card animate-on-scroll" data-rarity-color="rare">
+                        <span class="rarity-percentage">7%</span>
+                        <div class="rarity-illustration">
+                            <img src="https://via.placeholder.com/150x150/C700FF/F5F5F5?text=Rare" alt="Rare Rarity">
+                        </div>
+                        <h3>Rare</h3>
+                        <p>Éditions limitées, broderies et impression haut de gamme. Bonus NFT à valeur ajoutée.</p>
+                    </div>
+                    <div class="rarity-card animate-on-scroll" data-rarity-color="legendary">
+                        <span class="rarity-percentage">3%</span>
+                        <div class="rarity-illustration">
+                            <img src="https://via.placeholder.com/150x150/FFD700/1A1A1A?text=Legendary" alt="Legendary Rarity">
+                        </div>
+                        <h3>Légendaire</h3>
+                        <p>Pièce collector numérotée, packaging doré, NFT ultra exclusif + accès VIP.</p>
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 60px;">
+                    <a href="#" class="cta-button glitch-button" data-text="En savoir plus sur chaque rareté">En savoir plus sur chaque rareté</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="collections" class="collections-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Nos Collections Exclusives</h2>
+                <div class="collection-list">
+                    <div class="collection-card animate-on-scroll">
+                        <div class="collection-visual">
+                            <img src="https://via.placeholder.com/600x400/1A1A1A/F5F5F5?text=Collection+Origins" alt="Collection Origins">
+                        </div>
+                        <div class="collection-info">
+                            <h3>Origins</h3>
+                            <p>Les fondations de notre style. Des coupes épurées, des couleurs urbaines et des designs intemporels qui définissent l'essence de RNG.</p>
+                            <a href="#" class="cta-button">Découvrir la collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-card animate-on-scroll">
+                        <div class="collection-visual">
+                            <img src="https://via.placeholder.com/600x400/242424/F5F5F5?text=Collection+Urban+Night" alt="Collection Urban Night">
+                        </div>
+                        <div class="collection-info">
+                            <h3>Urban Night</h3>
+                            <p>Plongez dans l'obscurité stylée de la ville nocturne. Des motifs réfléchissants, des textures sombres et des accents lumineux inspirés des lumières de la nuit.</p>
+                            <a href="#" class="cta-button">Découvrir la collection</a>
+                        </div>
+                    </div>
+                    <div class="collection-card animate-on-scroll">
+                        <div class="collection-visual">
+                            <img src="https://via.placeholder.com/600x400/333333/F5F5F5?text=Collection+Future+Shock" alt="Collection Future Shock">
+                        </div>
+                        <div class="collection-info">
+                            <h3>Future Shock</h3>
+                            <p>L'avant-garde du streetwear. Des designs audacieux, des tissus techniques et des formes expérimentales qui projettent la mode dans le futur.</p>
+                            <a href="#" class="cta-button">Découvrir la collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-generated-content text-center">
+                    <h3 class="sub-heading">Apparitions clients <span class="neon-text">#RNGMystery</span></h3>
+                    <div class="carousel-container">
+                        <div class="carousel-item"><img src="https://via.placeholder.com/150x150/00FFFF/1A1A1A?text=Unboxing+1" alt="User Unboxing 1"></div>
+                        <div class="carousel-item"><img src="https://via.placeholder.com/150x150/C700FF/F5F5F5?text=Unboxing+2" alt="User Unboxing 2"></div>
+                        <div class="carousel-item"><img src="https://via.placeholder.com/150x150/FFD700/1A1A1A?text=Unboxing+3" alt="User Unboxing 3"></div>
+                        <div class="carousel-item"><img src="https://via.placeholder.com/150x150/00FFFF/1A1A1A?text=Unboxing+4" alt="User Unboxing 4"></div>
+                        <div class="carousel-item"><img src="https://via.placeholder.com/150x150/C700FF/F5F5F5?text=Unboxing+5" alt="User Unboxing 5"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products-showcase" class="products-showcase-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Quelques exemples de pièces</h2>
+                <div class="product-grid">
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/300x300/1A1A1A/F5F5F5?text=T-shirt+Alpha" alt="T-shirt Alpha">
+                        <span class="rarity-badge common">Common</span>
+                        <h4>RNG Origins – Modèle Alpha</h4>
+                        <p>T-shirt en coton doux, coupe classique.</p>
+                    </div>
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/300x300/1A1A1A/F5F5F5?text=Sweat+Beta" alt="Sweat Beta">
+                        <span class="rarity-badge uncommon">Peu Commun</span>
+                        <h4>RNG Urban Night – Sweat Beta</h4>
+                        <p>Sweat à capuche en coton premium, broderie discrète.</p>
+                    </div>
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/300x300/1A1A1A/F5F5F5?text=T-shirt+Gamma" alt="T-shirt Gamma">
+                        <span class="rarity-badge rare">Rare</span>
+                        <h4>RNG Future Shock – T-shirt Gamma</h4>
+                        <p>T-shirt technique, impression réfléchissante, coupe oversize.</p>
+                    </div>
+                    <div class="product-card animate-on-scroll">
+                        <img src="https://via.placeholder.com/300x300/1A1A1A/F5F5F5?text=Sweat+Delta" alt="Sweat Delta">
+                        <span class="rarity-badge legendary">Légendaire</span>
+                        <h4>RNG Origins – Sweat Delta (Collector #001/100)</h4>
+                        <p>Sweat collector numéroté, sérigraphie holographique.</p>
+                    </div>
+                </div>
+                <div class="legendary-zoom animate-on-scroll">
+                    <h3 class="sub-heading text-center">Focus Légendaire</h3>
+                    <div class="legendary-content">
+                        <img src="https://via.placeholder.com/500x400/FFD700/1A1A1A?text=Legendary+Focus" alt="Legendary Piece Focus">
+                        <div class="legendary-info">
+                            <span class="rarity-badge legendary-zoom-badge">Légendaire</span>
+                            <h4>RNG Signature - Le Phénix</h4>
+                            <p>Cette pièce mythique est une œuvre d'art textile. Fabriquée à partir de coton biologique ultrasoft, elle présente une sérigraphie holographique qui change de couleur sous la lumière. Chaque exemplaire est numéroté et signé, livré avec un packaging doré exclusif et débloque un accès VIP à notre Discord.</p>
+                            <video autoplay muted loop playsinline class="legendary-video-teaser">
+                                <source src="https://assets.mixkit.co/videos/preview/mixkit-man-with-tattooed-hands-5007-large.mp4" type="video/mp4">
+                                </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works-section section-padding animate-on-scroll">
+            <div class="how-it-works-background"></div>
+            <div class="container">
+                <h2 class="section-heading text-center">Comment ça marche ?</h2>
+                <div class="steps-container">
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon"><i class="fas fa-shopping-basket"></i></div>
+                        <h3>Choisissez votre Mystery Box</h3>
+                        <p>T-shirt ou sweat, taille, couleur de base... mais le design reste un mystère !</p>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                        <h3>Surprise & Rareté</h3>
+                        <p>Recevez un vêtement unique, tiré au sort selon les probabilités de rareté RNG.</p>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-icon"><i class="fas fa-id-badge"></i></div>
+                        <h3>Certificat Digital</h3>
+                        <p>Découvrez votre badge RNG dans votre espace client, preuve d'authenticité de votre pièce.</p>
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 60px;">
+                    <a href="#contact" class="cta-button glitch-button" data-text="Précommander maintenant">Précommander maintenant</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="nft-certificates" class="nft-certificates-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Votre certificat digital</h2>
+                <p class="text-center intro-text">Chaque Mystery Box génère un certificat unique (NFT) lié à votre vêtement. Suivez votre collection, découvrez vos raretés, et accédez à des privilèges exclusifs.</p>
+                <div class="nft-content-grid">
+                    <div class="nft-mockup animate-on-scroll">
+                        <img src="https://via.placeholder.com/500x350/242424/00FFFF?text=Mockup+Mes+Collections" alt="Mockup Mes Collections">
+                        <div class="mockup-caption">Vue de l'espace "Mes Collections"</div>
+                    </div>
+                    <div class="nft-advantages animate-on-scroll">
+                        <h3 class="sub-heading">Avantages selon votre NFT</h3>
+                        <div class="advantage-item">
+                            <div class="icon-wrapper"><i class="fas fa-award neon-blue"></i></div>
+                            <div>
+                                <h4>Common</h4>
+                                <p>Badge collector dans votre espace personnel.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="icon-wrapper"><i class="fas fa-percent neon-violet"></i></div>
+                            <div>
+                                <h4>Rare</h4>
+                                <p>Code promo de -10% sur votre prochaine commande.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="icon-wrapper"><i class="fas fa-crown neon-gold"></i></div>
+                            <div>
+                                <h4>Légendaire</h4>
+                                <p>Accès Discord VIP, airdrops exclusifs et droit de vote sur les futurs designs.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="cta-button glitch-button marketplace-cta" data-text="Explorer le RNG Exchange">Explorer le RNG Exchange</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community-roadmap" class="community-roadmap-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Rejoignez la communauté RNG</h2>
+                <div class="roadmap-timeline">
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Q2 2025</h4>
+                            <p>Test du site vitrine, pré-inscriptions ouvertes.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Q3 2025</h4>
+                            <p>Lancement officiel, premier drop T-shirts & Sweats.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Q4 2025</h4>
+                            <p>Ouverture de la marketplace "RNG Exchange", intégration des paiements crypto.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Q1 2026</h4>
+                            <p>Collaborations exclusives, éditions limitées et événements communautaires.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-links text-center">
+                    <a href="#" class="community-button discord-button animate-on-scroll" target="_blank"><i class="fab fa-discord"></i> Rejoignez notre Discord</a>
+                    <a href="#" class="community-button instagram-button animate-on-scroll" target="_blank"><i class="fab fa-instagram"></i> Suivez-nous sur Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">À propos de RNG</h2>
+                <div class="about-content">
+                    <div class="about-text animate-on-scroll">
+                        <p>Née de l'envie de fusionner streetwear et technologie, RNG réinvente la mode en jouant sur la notion de hasard. Notre équipe de trois associés passionnés par la crypto et le design s'engage à proposer des pièces uniques, collector et responsables.</p>
+                        <p>Nous croyons que le style ne doit pas être dicté, mais découvert. Chaque Mystery Box est une promesse d'originalité, une chance d'obtenir une pièce qui vous distingue.</p>
+                    </div>
+                    <div class="team-photos">
+                        <div class="team-member animate-on-scroll">
+                            <img src="https://via.placeholder.com/150x150/0D0D0D/F5F5F5?text=Membre+1" alt="Membre de l'équipe 1">
+                            <h4>John Doe</h4>
+                            <p>Co-fondateur & Design</p>
+                        </div>
+                        <div class="team-member animate-on-scroll">
+                            <img src="https://via.placeholder.com/150x150/0D0D0D/F5F5F5?text=Membre+2" alt="Membre de l'équipe 2">
+                            <h4>Jane Smith</h4>
+                            <p>Co-fondatrice & Tech</p>
+                        </div>
+                        <div class="team-member animate-on-scroll">
+                            <img src="https://via.placeholder.com/150x150/0D0D0D/F5F5F5?text=Membre+3" alt="Membre de l'équipe 3">
+                            <h4>Alex Johnson</h4>
+                            <p>Co-fondateur & Opérations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-contact-icons text-center">
+                    <a href="mailto:contact@rng.com" class="icon-link neon-blue"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="icon-link neon-violet" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="icon-link neon-blue" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding animate-on-scroll">
+            <div class="container">
+                <h2 class="section-heading text-center">Rejoignez la liste d'attente</h2>
+                <p class="text-center intro-text">Soyez parmi les premiers à découvrir nos Mystery Boxes et à tenter votre chance !</p>
+                <div class="countdown-timer text-center">
+                    <h3 class="sub-heading">Lancement officiel dans :</h3>
+                    <div id="countdown" class="neon-text">
+                        <span class="countdown-value" id="days">00</span> jours
+                        <span class="countdown-value" id="hours">00</span> heures
+                        <span class="countdown-value" id="minutes">00</span> minutes
+                        <span class="countdown-value" id="seconds">00</span> secondes
+                    </div>
+                </div>
+                <form class="newsletter-form contact-form animate-on-scroll">
+                    <p class="form-description">Inscrivez-vous pour être notifié du prochain drop et recevoir des aperçus exclusifs.</p>
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <button type="submit" class="cta-button glitch-button" data-text="S'inscrire à la liste d'attente">S'inscrire à la liste d'attente</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>RNG</h4>
+                    <p>Le style, c'est le hasard. Découvrez une mode unique et imprévisible.</p>
+                    <p>&copy; <span id="current-year"></span> RNG. Tous droits réservés.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#concept">Concept</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#rarities">Raretés</a></li>
+                        <li><a href="#how-it-works">Comment ça marche</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Aide & Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">CGV</a></li>
+                        <li><a href="#">Politique de retour</a></li>
+                        <li><a href="#">Support (Email)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Communauté</h4>
+                    <ul>
+                        <li><a href="#" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter (X)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
